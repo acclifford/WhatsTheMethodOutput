@@ -21,7 +21,7 @@ public class WhatsTheMethodOutput {
         thisYear = february + twentyNine/8;
         february = 2;
         System.out.println((thisYear + twentyNine));
-        return((int)thisYear + february + (short)twentyNine); //--hi
+        return((int)thisYear + february + (short)twentyNine);
     }
 //-----------------------------------------------------------------------------
 }
