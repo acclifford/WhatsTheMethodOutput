@@ -1,6 +1,6 @@
 //=============================================================================
 public class WhatsTheMethodOutput {
-    //-----------------------------------------------------------------------------
+    //----------------------------------------------------------------------------
     private static final short CENTURY = 2000;
     //-----------------------------------------------------------------------------
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class WhatsTheMethodOutput {
         thisMonth = leap(nextYear,28);
         System.out.println(thisYear + " " + nextYear + " " + thisMonth);
     }
-    //-----------------------------------------------------------------------------
+    //----------------------------------------------------------------------------
     private static int leap(int february,double twentyNine) {
 
         double thisYear;
